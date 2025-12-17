@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Show alert without external script</title>
+  </head>
+  <body>
+    <script>
+      window.alert("I'm Javascript");
+    </script>
+    <script type="text/javascript">
+      console.log("Hello World");
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js">
+      console.log("This is omitted");
+  </script>s
+  </body>

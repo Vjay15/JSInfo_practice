@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    let array = [1,2,3];
+    function hi(){
+        console.log("hi");
+    };
+    let str = "Willy";
+    let num = 50;
+    let obj = {
+        hello:1
+    };
+    //All primitives have their own wrapper constructors such as Number.prototype
+    //String.prototype and Boolean.prototype, except null and undefined
+    String.prototype.show = function() {
+        console.log(this);
+    }
+    str.show();
+    //Native prototyping is only used for polyfills, it is not for normal usage
+
+    //Borrowing methods from inbuilt functions
+    let obj_1 = {
+        0: "Hello",
+        1: "world!",
+        length:2
+    }
+
+    obj_1.join = Array.prototype.join;
+    obj_1.indexOf = Array.prototype.indexOf;
+    console.log(obj_1.join());
+    console.log(obj_1.indexOf("world!"));
+   </script> 
+</body>
+</html>

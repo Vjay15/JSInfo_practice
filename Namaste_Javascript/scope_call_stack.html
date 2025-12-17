@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Learning Scopes!</h1>
+    <script>
+        let a = 50;
+        const b = 60;
+        var c = 70;
+        function hello() {
+            let x = 20;
+            const y = 30;
+            var z = 40; 
+            console.log(x,y);
+        }
+        function hello_2() {
+            let a = 20;
+            const b = 30;
+            var c = 40; 
+        }
+        hello();
+        hello_2();
+    </script>
+</body>
+</html>
