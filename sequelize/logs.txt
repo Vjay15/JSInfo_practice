@@ -3836,3 +3836,1935 @@ Found hard-deleted log: No
 (Hard delete permanently removes the record)
 
 Closed successfully!
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users";
+All users [
+  {
+    "fullName": "Raj Kumar",
+    "id": "8d46c65a-6519-4e09-9846-b1b9bbc497ac",
+    "firstName": "Raj",
+    "lastName": "Kumar",
+    "email": "raj.kumar@gmail.com",
+    "phone": "6510396276",
+    "city": "Kanpur",
+    "age": 44,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Karan Singh",
+    "id": "945d8762-b2f9-4090-ae6a-438e4f54e901",
+    "firstName": "Karan",
+    "lastName": "Singh",
+    "email": "karan.singh@gmail.com",
+    "phone": "6796595196",
+    "city": "Lucknow",
+    "age": 62,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Kavya Kumar",
+    "id": "596edba7-fefc-451b-b440-2d5fba6f0e73",
+    "firstName": "Kavya",
+    "lastName": "Kumar",
+    "email": "kavya.kumar@example.com",
+    "phone": "9318744015",
+    "city": "Jaipur",
+    "age": 39,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rahul Gupta",
+    "id": "9577d883-010d-4a8a-b14d-e0eedaacd24c",
+    "firstName": "Rahul",
+    "lastName": "Gupta",
+    "email": "rahul.gupta@hotmail.com",
+    "phone": "9068878646",
+    "city": "Bangalore",
+    "age": 58,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Divya Nair",
+    "id": "ad0caeaf-c872-44f2-be90-c1a9d60f9729",
+    "firstName": "Divya",
+    "lastName": "Nair",
+    "email": "divya.nair@outlook.com",
+    "phone": "8063950947",
+    "city": "Pune",
+    "age": 31,
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rohan Malhotra",
+    "id": "c01a5869-0a37-40e6-8bb9-03a9a97952b3",
+    "firstName": "Rohan",
+    "lastName": "Malhotra",
+    "email": "rohan.malhotra@gmail.com",
+    "phone": "6822731557",
+    "city": "Kanpur",
+    "age": 35,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Kavya Malhotra",
+    "id": "1724dca9-994e-48e6-b7af-c3146adaf48a",
+    "firstName": "Kavya",
+    "lastName": "Malhotra",
+    "email": "kavya.malhotra@example.com",
+    "phone": "7192598471",
+    "city": "Indore",
+    "age": 51,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Meera Mehta",
+    "id": "af1574c3-6800-4525-ab68-2f248e6a83e9",
+    "firstName": "Meera",
+    "lastName": "Mehta",
+    "email": "meera.mehta@gmail.com",
+    "phone": "9845631693",
+    "city": "Kolkata",
+    "age": 76,
+    "password": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Priya Kumar",
+    "id": "ee1f27ae-3ba2-43c0-a543-9c6b1e2c08f6",
+    "firstName": "Priya",
+    "lastName": "Kumar",
+    "email": "priya.kumar@outlook.com",
+    "phone": "7799669341",
+    "city": "Surat",
+    "age": 41,
+    "password": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Vikram Verma",
+    "id": "07f5102b-67f6-428b-8be4-3799f4fa8c8b",
+    "firstName": "Vikram",
+    "lastName": "Verma",
+    "email": "vikram.verma@hotmail.com",
+    "phone": "6514563468",
+    "city": "Indore",
+    "age": 51,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Amit Patel",
+    "id": "dd2ec23e-d5bc-42bf-8db2-98f7dd6f5c8a",
+    "firstName": "Amit",
+    "lastName": "Patel",
+    "email": "amit.patel@hotmail.com",
+    "phone": "9889909309",
+    "city": "Mumbai",
+    "age": 31,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Priya Sharma",
+    "id": "b03709e7-5acf-49d7-9ba2-e7e9398f2601",
+    "firstName": "Priya",
+    "lastName": "Sharma",
+    "email": "priya.sharma@outlook.com",
+    "phone": "8898515175",
+    "city": "Kanpur",
+    "age": 37,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Raj Reddy",
+    "id": "b32f1812-8e9f-41c8-8787-c9702701b257",
+    "firstName": "Raj",
+    "lastName": "Reddy",
+    "email": "raj.reddy@hotmail.com",
+    "phone": "6488802981",
+    "city": "Thane",
+    "age": 31,
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Pooja Gupta",
+    "id": "f72c26c7-a9fa-4a4b-895a-fd7680293de2",
+    "firstName": "Pooja",
+    "lastName": "Gupta",
+    "email": "pooja.gupta@hotmail.com",
+    "phone": "8934390413",
+    "city": "Jaipur",
+    "age": 29,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rahul Shah",
+    "id": "c02800a8-afb4-4637-b0f4-b58cd88e35f2",
+    "firstName": "Rahul",
+    "lastName": "Shah",
+    "email": "rahul.shah@outlook.com",
+    "phone": "9942079632",
+    "city": "Nagpur",
+    "age": 61,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Aditya Kumar",
+    "id": "95be9bcf-5f8d-4c51-85c6-95bfc20ac9c6",
+    "firstName": "Aditya",
+    "lastName": "Kumar",
+    "email": "newuser@example.com",
+    "phone": "9876543210",
+    "city": "Mumbai",
+    "age": 25,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T07:00:31.598Z",
+    "updatedAt": "2026-01-02T07:00:31.598Z"
+  }
+]
+
+Executing (default): SELECT "firstName", "lastName" FROM "Users" AS "Users";
+All users lastname and firstname [
+  {
+    "firstName": "Raj",
+    "lastName": "Kumar"
+  },
+  {
+    "firstName": "Karan",
+    "lastName": "Singh"
+  },
+  {
+    "firstName": "Kavya",
+    "lastName": "Kumar"
+  },
+  {
+    "firstName": "Rahul",
+    "lastName": "Gupta"
+  },
+  {
+    "firstName": "Divya",
+    "lastName": "Nair"
+  },
+  {
+    "firstName": "Rohan",
+    "lastName": "Malhotra"
+  },
+  {
+    "firstName": "Kavya",
+    "lastName": "Malhotra"
+  },
+  {
+    "firstName": "Meera",
+    "lastName": "Mehta"
+  },
+  {
+    "firstName": "Priya",
+    "lastName": "Kumar"
+  },
+  {
+    "firstName": "Vikram",
+    "lastName": "Verma"
+  },
+  {
+    "firstName": "Amit",
+    "lastName": "Patel"
+  },
+  {
+    "firstName": "Priya",
+    "lastName": "Sharma"
+  },
+  {
+    "firstName": "Raj",
+    "lastName": "Reddy"
+  },
+  {
+    "firstName": "Pooja",
+    "lastName": "Gupta"
+  },
+  {
+    "firstName": "Rahul",
+    "lastName": "Shah"
+  },
+  {
+    "firstName": "Aditya",
+    "lastName": "Kumar"
+  }
+]
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE "Users"."city" = 'Bangalore';
+All users whose city is Bangalore [
+  {
+    "fullName": "Rahul Gupta",
+    "id": "9577d883-010d-4a8a-b14d-e0eedaacd24c",
+    "firstName": "Rahul",
+    "lastName": "Gupta",
+    "email": "rahul.gupta@hotmail.com",
+    "phone": "9068878646",
+    "city": "Bangalore",
+    "age": 58,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  }
+]
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE "Users"."age" = 25;
+Users with age = 25 [
+  {
+    "fullName": "Aditya Kumar",
+    "id": "95be9bcf-5f8d-4c51-85c6-95bfc20ac9c6",
+    "firstName": "Aditya",
+    "lastName": "Kumar",
+    "email": "newuser@example.com",
+    "phone": "9876543210",
+    "city": "Mumbai",
+    "age": 25,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T07:00:31.598Z",
+    "updatedAt": "2026-01-02T07:00:31.598Z"
+  }
+]
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE "Users"."age" != 25;
+Users with age != 25 [
+  {
+    "fullName": "Raj Kumar",
+    "id": "8d46c65a-6519-4e09-9846-b1b9bbc497ac",
+    "firstName": "Raj",
+    "lastName": "Kumar",
+    "email": "raj.kumar@gmail.com",
+    "phone": "6510396276",
+    "city": "Kanpur",
+    "age": 44,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Karan Singh",
+    "id": "945d8762-b2f9-4090-ae6a-438e4f54e901",
+    "firstName": "Karan",
+    "lastName": "Singh",
+    "email": "karan.singh@gmail.com",
+    "phone": "6796595196",
+    "city": "Lucknow",
+    "age": 62,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Kavya Kumar",
+    "id": "596edba7-fefc-451b-b440-2d5fba6f0e73",
+    "firstName": "Kavya",
+    "lastName": "Kumar",
+    "email": "kavya.kumar@example.com",
+    "phone": "9318744015",
+    "city": "Jaipur",
+    "age": 39,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rahul Gupta",
+    "id": "9577d883-010d-4a8a-b14d-e0eedaacd24c",
+    "firstName": "Rahul",
+    "lastName": "Gupta",
+    "email": "rahul.gupta@hotmail.com",
+    "phone": "9068878646",
+    "city": "Bangalore",
+    "age": 58,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Divya Nair",
+    "id": "ad0caeaf-c872-44f2-be90-c1a9d60f9729",
+    "firstName": "Divya",
+    "lastName": "Nair",
+    "email": "divya.nair@outlook.com",
+    "phone": "8063950947",
+    "city": "Pune",
+    "age": 31,
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rohan Malhotra",
+    "id": "c01a5869-0a37-40e6-8bb9-03a9a97952b3",
+    "firstName": "Rohan",
+    "lastName": "Malhotra",
+    "email": "rohan.malhotra@gmail.com",
+    "phone": "6822731557",
+    "city": "Kanpur",
+    "age": 35,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Kavya Malhotra",
+    "id": "1724dca9-994e-48e6-b7af-c3146adaf48a",
+    "firstName": "Kavya",
+    "lastName": "Malhotra",
+    "email": "kavya.malhotra@example.com",
+    "phone": "7192598471",
+    "city": "Indore",
+    "age": 51,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Meera Mehta",
+    "id": "af1574c3-6800-4525-ab68-2f248e6a83e9",
+    "firstName": "Meera",
+    "lastName": "Mehta",
+    "email": "meera.mehta@gmail.com",
+    "phone": "9845631693",
+    "city": "Kolkata",
+    "age": 76,
+    "password": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Priya Kumar",
+    "id": "ee1f27ae-3ba2-43c0-a543-9c6b1e2c08f6",
+    "firstName": "Priya",
+    "lastName": "Kumar",
+    "email": "priya.kumar@outlook.com",
+    "phone": "7799669341",
+    "city": "Surat",
+    "age": 41,
+    "password": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Vikram Verma",
+    "id": "07f5102b-67f6-428b-8be4-3799f4fa8c8b",
+    "firstName": "Vikram",
+    "lastName": "Verma",
+    "email": "vikram.verma@hotmail.com",
+    "phone": "6514563468",
+    "city": "Indore",
+    "age": 51,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Amit Patel",
+    "id": "dd2ec23e-d5bc-42bf-8db2-98f7dd6f5c8a",
+    "firstName": "Amit",
+    "lastName": "Patel",
+    "email": "amit.patel@hotmail.com",
+    "phone": "9889909309",
+    "city": "Mumbai",
+    "age": 31,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Priya Sharma",
+    "id": "b03709e7-5acf-49d7-9ba2-e7e9398f2601",
+    "firstName": "Priya",
+    "lastName": "Sharma",
+    "email": "priya.sharma@outlook.com",
+    "phone": "8898515175",
+    "city": "Kanpur",
+    "age": 37,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Raj Reddy",
+    "id": "b32f1812-8e9f-41c8-8787-c9702701b257",
+    "firstName": "Raj",
+    "lastName": "Reddy",
+    "email": "raj.reddy@hotmail.com",
+    "phone": "6488802981",
+    "city": "Thane",
+    "age": 31,
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Pooja Gupta",
+    "id": "f72c26c7-a9fa-4a4b-895a-fd7680293de2",
+    "firstName": "Pooja",
+    "lastName": "Gupta",
+    "email": "pooja.gupta@hotmail.com",
+    "phone": "8934390413",
+    "city": "Jaipur",
+    "age": 29,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rahul Shah",
+    "id": "c02800a8-afb4-4637-b0f4-b58cd88e35f2",
+    "firstName": "Rahul",
+    "lastName": "Shah",
+    "email": "rahul.shah@outlook.com",
+    "phone": "9942079632",
+    "city": "Nagpur",
+    "age": 61,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  }
+]
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE "Users"."age" > 34;
+Users with age > 34 [
+  {
+    "fullName": "Raj Kumar",
+    "id": "8d46c65a-6519-4e09-9846-b1b9bbc497ac",
+    "firstName": "Raj",
+    "lastName": "Kumar",
+    "email": "raj.kumar@gmail.com",
+    "phone": "6510396276",
+    "city": "Kanpur",
+    "age": 44,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Karan Singh",
+    "id": "945d8762-b2f9-4090-ae6a-438e4f54e901",
+    "firstName": "Karan",
+    "lastName": "Singh",
+    "email": "karan.singh@gmail.com",
+    "phone": "6796595196",
+    "city": "Lucknow",
+    "age": 62,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Kavya Kumar",
+    "id": "596edba7-fefc-451b-b440-2d5fba6f0e73",
+    "firstName": "Kavya",
+    "lastName": "Kumar",
+    "email": "kavya.kumar@example.com",
+    "phone": "9318744015",
+    "city": "Jaipur",
+    "age": 39,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rahul Gupta",
+    "id": "9577d883-010d-4a8a-b14d-e0eedaacd24c",
+    "firstName": "Rahul",
+    "lastName": "Gupta",
+    "email": "rahul.gupta@hotmail.com",
+    "phone": "9068878646",
+    "city": "Bangalore",
+    "age": 58,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rohan Malhotra",
+    "id": "c01a5869-0a37-40e6-8bb9-03a9a97952b3",
+    "firstName": "Rohan",
+    "lastName": "Malhotra",
+    "email": "rohan.malhotra@gmail.com",
+    "phone": "6822731557",
+    "city": "Kanpur",
+    "age": 35,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Kavya Malhotra",
+    "id": "1724dca9-994e-48e6-b7af-c3146adaf48a",
+    "firstName": "Kavya",
+    "lastName": "Malhotra",
+    "email": "kavya.malhotra@example.com",
+    "phone": "7192598471",
+    "city": "Indore",
+    "age": 51,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Meera Mehta",
+    "id": "af1574c3-6800-4525-ab68-2f248e6a83e9",
+    "firstName": "Meera",
+    "lastName": "Mehta",
+    "email": "meera.mehta@gmail.com",
+    "phone": "9845631693",
+    "city": "Kolkata",
+    "age": 76,
+    "password": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Priya Kumar",
+    "id": "ee1f27ae-3ba2-43c0-a543-9c6b1e2c08f6",
+    "firstName": "Priya",
+    "lastName": "Kumar",
+    "email": "priya.kumar@outlook.com",
+    "phone": "7799669341",
+    "city": "Surat",
+    "age": 41,
+    "password": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Vikram Verma",
+    "id": "07f5102b-67f6-428b-8be4-3799f4fa8c8b",
+    "firstName": "Vikram",
+    "lastName": "Verma",
+    "email": "vikram.verma@hotmail.com",
+    "phone": "6514563468",
+    "city": "Indore",
+    "age": 51,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Priya Sharma",
+    "id": "b03709e7-5acf-49d7-9ba2-e7e9398f2601",
+    "firstName": "Priya",
+    "lastName": "Sharma",
+    "email": "priya.sharma@outlook.com",
+    "phone": "8898515175",
+    "city": "Kanpur",
+    "age": 37,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rahul Shah",
+    "id": "c02800a8-afb4-4637-b0f4-b58cd88e35f2",
+    "firstName": "Rahul",
+    "lastName": "Shah",
+    "email": "rahul.shah@outlook.com",
+    "phone": "9942079632",
+    "city": "Nagpur",
+    "age": 61,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  }
+]
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE "Users"."age" >= 34;
+Users with age >= 34 [
+  {
+    "fullName": "Raj Kumar",
+    "id": "8d46c65a-6519-4e09-9846-b1b9bbc497ac",
+    "firstName": "Raj",
+    "lastName": "Kumar",
+    "email": "raj.kumar@gmail.com",
+    "phone": "6510396276",
+    "city": "Kanpur",
+    "age": 44,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Karan Singh",
+    "id": "945d8762-b2f9-4090-ae6a-438e4f54e901",
+    "firstName": "Karan",
+    "lastName": "Singh",
+    "email": "karan.singh@gmail.com",
+    "phone": "6796595196",
+    "city": "Lucknow",
+    "age": 62,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Kavya Kumar",
+    "id": "596edba7-fefc-451b-b440-2d5fba6f0e73",
+    "firstName": "Kavya",
+    "lastName": "Kumar",
+    "email": "kavya.kumar@example.com",
+    "phone": "9318744015",
+    "city": "Jaipur",
+    "age": 39,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rahul Gupta",
+    "id": "9577d883-010d-4a8a-b14d-e0eedaacd24c",
+    "firstName": "Rahul",
+    "lastName": "Gupta",
+    "email": "rahul.gupta@hotmail.com",
+    "phone": "9068878646",
+    "city": "Bangalore",
+    "age": 58,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rohan Malhotra",
+    "id": "c01a5869-0a37-40e6-8bb9-03a9a97952b3",
+    "firstName": "Rohan",
+    "lastName": "Malhotra",
+    "email": "rohan.malhotra@gmail.com",
+    "phone": "6822731557",
+    "city": "Kanpur",
+    "age": 35,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Kavya Malhotra",
+    "id": "1724dca9-994e-48e6-b7af-c3146adaf48a",
+    "firstName": "Kavya",
+    "lastName": "Malhotra",
+    "email": "kavya.malhotra@example.com",
+    "phone": "7192598471",
+    "city": "Indore",
+    "age": 51,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Meera Mehta",
+    "id": "af1574c3-6800-4525-ab68-2f248e6a83e9",
+    "firstName": "Meera",
+    "lastName": "Mehta",
+    "email": "meera.mehta@gmail.com",
+    "phone": "9845631693",
+    "city": "Kolkata",
+    "age": 76,
+    "password": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Priya Kumar",
+    "id": "ee1f27ae-3ba2-43c0-a543-9c6b1e2c08f6",
+    "firstName": "Priya",
+    "lastName": "Kumar",
+    "email": "priya.kumar@outlook.com",
+    "phone": "7799669341",
+    "city": "Surat",
+    "age": 41,
+    "password": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Vikram Verma",
+    "id": "07f5102b-67f6-428b-8be4-3799f4fa8c8b",
+    "firstName": "Vikram",
+    "lastName": "Verma",
+    "email": "vikram.verma@hotmail.com",
+    "phone": "6514563468",
+    "city": "Indore",
+    "age": 51,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Priya Sharma",
+    "id": "b03709e7-5acf-49d7-9ba2-e7e9398f2601",
+    "firstName": "Priya",
+    "lastName": "Sharma",
+    "email": "priya.sharma@outlook.com",
+    "phone": "8898515175",
+    "city": "Kanpur",
+    "age": 37,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rahul Shah",
+    "id": "c02800a8-afb4-4637-b0f4-b58cd88e35f2",
+    "firstName": "Rahul",
+    "lastName": "Shah",
+    "email": "rahul.shah@outlook.com",
+    "phone": "9942079632",
+    "city": "Nagpur",
+    "age": 61,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  }
+]
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE "Users"."age" < 25;
+Users with age < 25 []
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE "Users"."age" <= 25;
+Users with age <= 25 [
+  {
+    "fullName": "Aditya Kumar",
+    "id": "95be9bcf-5f8d-4c51-85c6-95bfc20ac9c6",
+    "firstName": "Aditya",
+    "lastName": "Kumar",
+    "email": "newuser@example.com",
+    "phone": "9876543210",
+    "city": "Mumbai",
+    "age": 25,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T07:00:31.598Z",
+    "updatedAt": "2026-01-02T07:00:31.598Z"
+  }
+]
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE "Users"."age" BETWEEN 25 AND 40;
+Users with age BETWEEN 25 AND 40 [
+  {
+    "fullName": "Kavya Kumar",
+    "id": "596edba7-fefc-451b-b440-2d5fba6f0e73",
+    "firstName": "Kavya",
+    "lastName": "Kumar",
+    "email": "kavya.kumar@example.com",
+    "phone": "9318744015",
+    "city": "Jaipur",
+    "age": 39,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Divya Nair",
+    "id": "ad0caeaf-c872-44f2-be90-c1a9d60f9729",
+    "firstName": "Divya",
+    "lastName": "Nair",
+    "email": "divya.nair@outlook.com",
+    "phone": "8063950947",
+    "city": "Pune",
+    "age": 31,
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rohan Malhotra",
+    "id": "c01a5869-0a37-40e6-8bb9-03a9a97952b3",
+    "firstName": "Rohan",
+    "lastName": "Malhotra",
+    "email": "rohan.malhotra@gmail.com",
+    "phone": "6822731557",
+    "city": "Kanpur",
+    "age": 35,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Amit Patel",
+    "id": "dd2ec23e-d5bc-42bf-8db2-98f7dd6f5c8a",
+    "firstName": "Amit",
+    "lastName": "Patel",
+    "email": "amit.patel@hotmail.com",
+    "phone": "9889909309",
+    "city": "Mumbai",
+    "age": 31,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Priya Sharma",
+    "id": "b03709e7-5acf-49d7-9ba2-e7e9398f2601",
+    "firstName": "Priya",
+    "lastName": "Sharma",
+    "email": "priya.sharma@outlook.com",
+    "phone": "8898515175",
+    "city": "Kanpur",
+    "age": 37,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Raj Reddy",
+    "id": "b32f1812-8e9f-41c8-8787-c9702701b257",
+    "firstName": "Raj",
+    "lastName": "Reddy",
+    "email": "raj.reddy@hotmail.com",
+    "phone": "6488802981",
+    "city": "Thane",
+    "age": 31,
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Pooja Gupta",
+    "id": "f72c26c7-a9fa-4a4b-895a-fd7680293de2",
+    "firstName": "Pooja",
+    "lastName": "Gupta",
+    "email": "pooja.gupta@hotmail.com",
+    "phone": "8934390413",
+    "city": "Jaipur",
+    "age": 29,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Aditya Kumar",
+    "id": "95be9bcf-5f8d-4c51-85c6-95bfc20ac9c6",
+    "firstName": "Aditya",
+    "lastName": "Kumar",
+    "email": "newuser@example.com",
+    "phone": "9876543210",
+    "city": "Mumbai",
+    "age": 25,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T07:00:31.598Z",
+    "updatedAt": "2026-01-02T07:00:31.598Z"
+  }
+]
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE "Users"."city" IN ('Delhi', 'Bangalore', 'Kanpur');
+Users in specific cities [
+  {
+    "fullName": "Raj Kumar",
+    "id": "8d46c65a-6519-4e09-9846-b1b9bbc497ac",
+    "firstName": "Raj",
+    "lastName": "Kumar",
+    "email": "raj.kumar@gmail.com",
+    "phone": "6510396276",
+    "city": "Kanpur",
+    "age": 44,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rahul Gupta",
+    "id": "9577d883-010d-4a8a-b14d-e0eedaacd24c",
+    "firstName": "Rahul",
+    "lastName": "Gupta",
+    "email": "rahul.gupta@hotmail.com",
+    "phone": "9068878646",
+    "city": "Bangalore",
+    "age": 58,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rohan Malhotra",
+    "id": "c01a5869-0a37-40e6-8bb9-03a9a97952b3",
+    "firstName": "Rohan",
+    "lastName": "Malhotra",
+    "email": "rohan.malhotra@gmail.com",
+    "phone": "6822731557",
+    "city": "Kanpur",
+    "age": 35,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Priya Sharma",
+    "id": "b03709e7-5acf-49d7-9ba2-e7e9398f2601",
+    "firstName": "Priya",
+    "lastName": "Sharma",
+    "email": "priya.sharma@outlook.com",
+    "phone": "8898515175",
+    "city": "Kanpur",
+    "age": 37,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  }
+]
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE "Users"."city" NOT IN ('Bangalore', 'Kanpur');
+Users NOT in specific cities [
+  {
+    "fullName": "Karan Singh",
+    "id": "945d8762-b2f9-4090-ae6a-438e4f54e901",
+    "firstName": "Karan",
+    "lastName": "Singh",
+    "email": "karan.singh@gmail.com",
+    "phone": "6796595196",
+    "city": "Lucknow",
+    "age": 62,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Kavya Kumar",
+    "id": "596edba7-fefc-451b-b440-2d5fba6f0e73",
+    "firstName": "Kavya",
+    "lastName": "Kumar",
+    "email": "kavya.kumar@example.com",
+    "phone": "9318744015",
+    "city": "Jaipur",
+    "age": 39,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Divya Nair",
+    "id": "ad0caeaf-c872-44f2-be90-c1a9d60f9729",
+    "firstName": "Divya",
+    "lastName": "Nair",
+    "email": "divya.nair@outlook.com",
+    "phone": "8063950947",
+    "city": "Pune",
+    "age": 31,
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Kavya Malhotra",
+    "id": "1724dca9-994e-48e6-b7af-c3146adaf48a",
+    "firstName": "Kavya",
+    "lastName": "Malhotra",
+    "email": "kavya.malhotra@example.com",
+    "phone": "7192598471",
+    "city": "Indore",
+    "age": 51,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Meera Mehta",
+    "id": "af1574c3-6800-4525-ab68-2f248e6a83e9",
+    "firstName": "Meera",
+    "lastName": "Mehta",
+    "email": "meera.mehta@gmail.com",
+    "phone": "9845631693",
+    "city": "Kolkata",
+    "age": 76,
+    "password": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Priya Kumar",
+    "id": "ee1f27ae-3ba2-43c0-a543-9c6b1e2c08f6",
+    "firstName": "Priya",
+    "lastName": "Kumar",
+    "email": "priya.kumar@outlook.com",
+    "phone": "7799669341",
+    "city": "Surat",
+    "age": 41,
+    "password": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Vikram Verma",
+    "id": "07f5102b-67f6-428b-8be4-3799f4fa8c8b",
+    "firstName": "Vikram",
+    "lastName": "Verma",
+    "email": "vikram.verma@hotmail.com",
+    "phone": "6514563468",
+    "city": "Indore",
+    "age": 51,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Amit Patel",
+    "id": "dd2ec23e-d5bc-42bf-8db2-98f7dd6f5c8a",
+    "firstName": "Amit",
+    "lastName": "Patel",
+    "email": "amit.patel@hotmail.com",
+    "phone": "9889909309",
+    "city": "Mumbai",
+    "age": 31,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Raj Reddy",
+    "id": "b32f1812-8e9f-41c8-8787-c9702701b257",
+    "firstName": "Raj",
+    "lastName": "Reddy",
+    "email": "raj.reddy@hotmail.com",
+    "phone": "6488802981",
+    "city": "Thane",
+    "age": 31,
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Pooja Gupta",
+    "id": "f72c26c7-a9fa-4a4b-895a-fd7680293de2",
+    "firstName": "Pooja",
+    "lastName": "Gupta",
+    "email": "pooja.gupta@hotmail.com",
+    "phone": "8934390413",
+    "city": "Jaipur",
+    "age": 29,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rahul Shah",
+    "id": "c02800a8-afb4-4637-b0f4-b58cd88e35f2",
+    "firstName": "Rahul",
+    "lastName": "Shah",
+    "email": "rahul.shah@outlook.com",
+    "phone": "9942079632",
+    "city": "Nagpur",
+    "age": 61,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Aditya Kumar",
+    "id": "95be9bcf-5f8d-4c51-85c6-95bfc20ac9c6",
+    "firstName": "Aditya",
+    "lastName": "Kumar",
+    "email": "newuser@example.com",
+    "phone": "9876543210",
+    "city": "Mumbai",
+    "age": 25,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T07:00:31.598Z",
+    "updatedAt": "2026-01-02T07:00:31.598Z"
+  }
+]
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE "Users"."firstName" LIKE '%ram%';
+Users with firstName containing "ram" [
+  {
+    "fullName": "Vikram Verma",
+    "id": "07f5102b-67f6-428b-8be4-3799f4fa8c8b",
+    "firstName": "Vikram",
+    "lastName": "Verma",
+    "email": "vikram.verma@hotmail.com",
+    "phone": "6514563468",
+    "city": "Indore",
+    "age": 51,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  }
+]
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE "Users"."firstName" LIKE 'V%';
+Users with firstName starting with "V" [
+  {
+    "fullName": "Vikram Verma",
+    "id": "07f5102b-67f6-428b-8be4-3799f4fa8c8b",
+    "firstName": "Vikram",
+    "lastName": "Verma",
+    "email": "vikram.verma@hotmail.com",
+    "phone": "6514563468",
+    "city": "Indore",
+    "age": 51,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  }
+]
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE "Users"."email" LIKE '%@gmail.com';
+Users with email ending with "@gmail.com" [
+  {
+    "fullName": "Raj Kumar",
+    "id": "8d46c65a-6519-4e09-9846-b1b9bbc497ac",
+    "firstName": "Raj",
+    "lastName": "Kumar",
+    "email": "raj.kumar@gmail.com",
+    "phone": "6510396276",
+    "city": "Kanpur",
+    "age": 44,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Karan Singh",
+    "id": "945d8762-b2f9-4090-ae6a-438e4f54e901",
+    "firstName": "Karan",
+    "lastName": "Singh",
+    "email": "karan.singh@gmail.com",
+    "phone": "6796595196",
+    "city": "Lucknow",
+    "age": 62,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rohan Malhotra",
+    "id": "c01a5869-0a37-40e6-8bb9-03a9a97952b3",
+    "firstName": "Rohan",
+    "lastName": "Malhotra",
+    "email": "rohan.malhotra@gmail.com",
+    "phone": "6822731557",
+    "city": "Kanpur",
+    "age": 35,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Meera Mehta",
+    "id": "af1574c3-6800-4525-ab68-2f248e6a83e9",
+    "firstName": "Meera",
+    "lastName": "Mehta",
+    "email": "meera.mehta@gmail.com",
+    "phone": "9845631693",
+    "city": "Kolkata",
+    "age": 76,
+    "password": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  }
+]
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE "Users"."firstName" ILIKE '%john%';
+Users with firstName containing "john" (case insensitive) []
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE "Users"."lastName" IS NULL;
+Users with NULL lastName []
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE ("Users"."age" >= 25 AND "Users"."city" = 'Chennai');
+Users with age >= 25 AND city = Chennai []
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE ("Users"."age" < 25 OR "Users"."age" > 50);
+Users with age < 25 OR age > 50 [
+  {
+    "fullName": "Karan Singh",
+    "id": "945d8762-b2f9-4090-ae6a-438e4f54e901",
+    "firstName": "Karan",
+    "lastName": "Singh",
+    "email": "karan.singh@gmail.com",
+    "phone": "6796595196",
+    "city": "Lucknow",
+    "age": 62,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rahul Gupta",
+    "id": "9577d883-010d-4a8a-b14d-e0eedaacd24c",
+    "firstName": "Rahul",
+    "lastName": "Gupta",
+    "email": "rahul.gupta@hotmail.com",
+    "phone": "9068878646",
+    "city": "Bangalore",
+    "age": 58,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Kavya Malhotra",
+    "id": "1724dca9-994e-48e6-b7af-c3146adaf48a",
+    "firstName": "Kavya",
+    "lastName": "Malhotra",
+    "email": "kavya.malhotra@example.com",
+    "phone": "7192598471",
+    "city": "Indore",
+    "age": 51,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Meera Mehta",
+    "id": "af1574c3-6800-4525-ab68-2f248e6a83e9",
+    "firstName": "Meera",
+    "lastName": "Mehta",
+    "email": "meera.mehta@gmail.com",
+    "phone": "9845631693",
+    "city": "Kolkata",
+    "age": 76,
+    "password": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Vikram Verma",
+    "id": "07f5102b-67f6-428b-8be4-3799f4fa8c8b",
+    "firstName": "Vikram",
+    "lastName": "Verma",
+    "email": "vikram.verma@hotmail.com",
+    "phone": "6514563468",
+    "city": "Indore",
+    "age": 51,
+    "password": "e6e07510d6531af5f403d1e6d0eb997855b6453488aaee6a9dd10ad5133f936a",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rahul Shah",
+    "id": "c02800a8-afb4-4637-b0f4-b58cd88e35f2",
+    "firstName": "Rahul",
+    "lastName": "Shah",
+    "email": "rahul.shah@outlook.com",
+    "phone": "9942079632",
+    "city": "Nagpur",
+    "age": 61,
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  }
+]
+
+Executing (default): SELECT "id", "firstName", "lastName", "email", "phone", "city", "age", "password", "createdAt", "updatedAt" FROM "Users" AS "Users" WHERE ("Users"."age" BETWEEN 20 AND 60 AND ("Users"."city" IN ('New York', 'Los Angeles', 'Chicago') OR "Users"."email" LIKE '%@gmail.com'));
+Complex query: age between 20-60 AND (city in major cities OR email is gmail) [
+  {
+    "fullName": "Raj Kumar",
+    "id": "8d46c65a-6519-4e09-9846-b1b9bbc497ac",
+    "firstName": "Raj",
+    "lastName": "Kumar",
+    "email": "raj.kumar@gmail.com",
+    "phone": "6510396276",
+    "city": "Kanpur",
+    "age": 44,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  },
+  {
+    "fullName": "Rohan Malhotra",
+    "id": "c01a5869-0a37-40e6-8bb9-03a9a97952b3",
+    "firstName": "Rohan",
+    "lastName": "Malhotra",
+    "email": "rohan.malhotra@gmail.com",
+    "phone": "6822731557",
+    "city": "Kanpur",
+    "age": 35,
+    "password": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+    "createdAt": "2026-01-02T06:44:10.785Z",
+    "updatedAt": "2026-01-02T06:44:10.785Z"
+  }
+]
+
+Executing (default): SELECT "city", COUNT("id") AS "userCount" FROM "Users" AS "Users" GROUP BY "city" ORDER BY COUNT("id") DESC;
+=== GROUP BY: Users count by city ===
+[
+  {
+    "city": "Kanpur",
+    "userCount": "3"
+  },
+  {
+    "city": "Indore",
+    "userCount": "2"
+  },
+  {
+    "city": "Mumbai",
+    "userCount": "2"
+  },
+  {
+    "city": "Jaipur",
+    "userCount": "2"
+  },
+  {
+    "city": "Bangalore",
+    "userCount": "1"
+  },
+  {
+    "city": "Surat",
+    "userCount": "1"
+  },
+  {
+    "city": "Thane",
+    "userCount": "1"
+  },
+  {
+    "city": "Pune",
+    "userCount": "1"
+  },
+  {
+    "city": "Lucknow",
+    "userCount": "1"
+  },
+  {
+    "city": "Nagpur",
+    "userCount": "1"
+  },
+  {
+    "city": "Kolkata",
+    "userCount": "1"
+  }
+]
+
+Executing (default): SELECT "city", COUNT("id") AS "userCount" FROM "Users" AS "Users" GROUP BY "city" HAVING COUNT("id") > 1 ORDER BY COUNT("id") DESC;
+=== GROUP BY + HAVING: Cities with more than 1 user ===
+[
+  {
+    "city": "Kanpur",
+    "userCount": "3"
+  },
+  {
+    "city": "Jaipur",
+    "userCount": "2"
+  },
+  {
+    "city": "Indore",
+    "userCount": "2"
+  },
+  {
+    "city": "Mumbai",
+    "userCount": "2"
+  }
+]
+
+Executing (default): SELECT SUBSTRING("email", POSITION('@' IN email) + 1) AS "emailDomain", COUNT("id") AS "userCount" FROM "Users" AS "Users" GROUP BY SUBSTRING("email", POSITION('@' IN email) + 1) HAVING COUNT("id") > 0 ORDER BY COUNT("id") DESC;
+=== GROUP BY: Users count by email domain ===
+[
+  {
+    "emailDomain": "hotmail.com",
+    "userCount": "5"
+  },
+  {
+    "emailDomain": "gmail.com",
+    "userCount": "4"
+  },
+  {
+    "emailDomain": "outlook.com",
+    "userCount": "4"
+  },
+  {
+    "emailDomain": "example.com",
+    "userCount": "3"
+  }
+]
+
+Executing (default): SELECT "firstName", "lastName", "age", "city" FROM "Users" AS "Users" ORDER BY "Users"."age" ASC LIMIT 5;
+=== ORDERING: Users ordered by age ASC (top 5) ===
+[
+  {
+    "firstName": "Aditya",
+    "lastName": "Kumar",
+    "age": 25,
+    "city": "Mumbai"
+  },
+  {
+    "firstName": "Pooja",
+    "lastName": "Gupta",
+    "age": 29,
+    "city": "Jaipur"
+  },
+  {
+    "firstName": "Raj",
+    "lastName": "Reddy",
+    "age": 31,
+    "city": "Thane"
+  },
+  {
+    "firstName": "Divya",
+    "lastName": "Nair",
+    "age": 31,
+    "city": "Pune"
+  },
+  {
+    "firstName": "Amit",
+    "lastName": "Patel",
+    "age": 31,
+    "city": "Mumbai"
+  }
+]
+
+Executing (default): SELECT "firstName", "lastName", "age", "city" FROM "Users" AS "Users" ORDER BY "Users"."age" DESC LIMIT 5;
+=== ORDERING: Users ordered by age DESC (top 5) ===
+[
+  {
+    "firstName": "Meera",
+    "lastName": "Mehta",
+    "age": 76,
+    "city": "Kolkata"
+  },
+  {
+    "firstName": "Karan",
+    "lastName": "Singh",
+    "age": 62,
+    "city": "Lucknow"
+  },
+  {
+    "firstName": "Rahul",
+    "lastName": "Shah",
+    "age": 61,
+    "city": "Nagpur"
+  },
+  {
+    "firstName": "Rahul",
+    "lastName": "Gupta",
+    "age": 58,
+    "city": "Bangalore"
+  },
+  {
+    "firstName": "Kavya",
+    "lastName": "Malhotra",
+    "age": 51,
+    "city": "Indore"
+  }
+]
+
+Executing (default): SELECT "firstName", "lastName", "age", "city" FROM "Users" AS "Users" ORDER BY "Users"."age" DESC, "Users"."firstName" ASC LIMIT 10;
+=== ORDERING: Users ordered by age DESC, then firstName ASC (top 10) ===
+[
+  {
+    "firstName": "Meera",
+    "lastName": "Mehta",
+    "age": 76,
+    "city": "Kolkata"
+  },
+  {
+    "firstName": "Karan",
+    "lastName": "Singh",
+    "age": 62,
+    "city": "Lucknow"
+  },
+  {
+    "firstName": "Rahul",
+    "lastName": "Shah",
+    "age": 61,
+    "city": "Nagpur"
+  },
+  {
+    "firstName": "Rahul",
+    "lastName": "Gupta",
+    "age": 58,
+    "city": "Bangalore"
+  },
+  {
+    "firstName": "Kavya",
+    "lastName": "Malhotra",
+    "age": 51,
+    "city": "Indore"
+  },
+  {
+    "firstName": "Vikram",
+    "lastName": "Verma",
+    "age": 51,
+    "city": "Indore"
+  },
+  {
+    "firstName": "Raj",
+    "lastName": "Kumar",
+    "age": 44,
+    "city": "Kanpur"
+  },
+  {
+    "firstName": "Priya",
+    "lastName": "Kumar",
+    "age": 41,
+    "city": "Surat"
+  },
+  {
+    "firstName": "Kavya",
+    "lastName": "Kumar",
+    "age": 39,
+    "city": "Jaipur"
+  },
+  {
+    "firstName": "Priya",
+    "lastName": "Sharma",
+    "age": 37,
+    "city": "Kanpur"
+  }
+]
+
+Executing (default): SELECT "firstName", "lastName", "age", "city" FROM "Users" AS "Users" ORDER BY "Users"."city" ASC, "Users"."age" DESC;
+=== ORDERING: Users ordered by city ASC, then age DESC within each city ===
+[
+  {
+    "firstName": "Rahul",
+    "lastName": "Gupta",
+    "age": 58,
+    "city": "Bangalore"
+  },
+  {
+    "firstName": "Vikram",
+    "lastName": "Verma",
+    "age": 51,
+    "city": "Indore"
+  },
+  {
+    "firstName": "Kavya",
+    "lastName": "Malhotra",
+    "age": 51,
+    "city": "Indore"
+  },
+  {
+    "firstName": "Kavya",
+    "lastName": "Kumar",
+    "age": 39,
+    "city": "Jaipur"
+  },
+  {
+    "firstName": "Pooja",
+    "lastName": "Gupta",
+    "age": 29,
+    "city": "Jaipur"
+  },
+  {
+    "firstName": "Raj",
+    "lastName": "Kumar",
+    "age": 44,
+    "city": "Kanpur"
+  },
+  {
+    "firstName": "Priya",
+    "lastName": "Sharma",
+    "age": 37,
+    "city": "Kanpur"
+  },
+  {
+    "firstName": "Rohan",
+    "lastName": "Malhotra",
+    "age": 35,
+    "city": "Kanpur"
+  },
+  {
+    "firstName": "Meera",
+    "lastName": "Mehta",
+    "age": 76,
+    "city": "Kolkata"
+  },
+  {
+    "firstName": "Karan",
+    "lastName": "Singh",
+    "age": 62,
+    "city": "Lucknow"
+  },
+  {
+    "firstName": "Amit",
+    "lastName": "Patel",
+    "age": 31,
+    "city": "Mumbai"
+  },
+  {
+    "firstName": "Aditya",
+    "lastName": "Kumar",
+    "age": 25,
+    "city": "Mumbai"
+  },
+  {
+    "firstName": "Rahul",
+    "lastName": "Shah",
+    "age": 61,
+    "city": "Nagpur"
+  },
+  {
+    "firstName": "Divya",
+    "lastName": "Nair",
+    "age": 31,
+    "city": "Pune"
+  },
+  {
+    "firstName": "Priya",
+    "lastName": "Kumar",
+    "age": 41,
+    "city": "Surat"
+  },
+  {
+    "firstName": "Raj",
+    "lastName": "Reddy",
+    "age": 31,
+    "city": "Thane"
+  }
+]
+
+Executing (default): SELECT "firstName", "lastName", "email" FROM "Users" AS "Users" ORDER BY LENGTH("email") DESC LIMIT 5;
+=== ORDERING: Users ordered by email length DESC (top 5) ===
+[
+  {
+    "firstName": "Kavya",
+    "lastName": "Malhotra",
+    "email": "kavya.malhotra@example.com"
+  },
+  {
+    "firstName": "Priya",
+    "lastName": "Sharma",
+    "email": "priya.sharma@outlook.com"
+  },
+  {
+    "firstName": "Vikram",
+    "lastName": "Verma",
+    "email": "vikram.verma@hotmail.com"
+  },
+  {
+    "firstName": "Rohan",
+    "lastName": "Malhotra",
+    "email": "rohan.malhotra@gmail.com"
+  },
+  {
+    "firstName": "Kavya",
+    "lastName": "Kumar",
+    "email": "kavya.kumar@example.com"
+  }
+]
+
+Executing (default): SELECT "firstName", "lastName", "age", "city" FROM "Users" AS "Users" WHERE "Users"."age" >= 25 ORDER BY "Users"."city" ASC, "Users"."age" DESC, "Users"."lastName" ASC;
+=== ORDERING: Users age >= 25, ordered by city ASC, age DESC, lastName ASC ===
+[
+  {
+    "firstName": "Rahul",
+    "lastName": "Gupta",
+    "age": 58,
+    "city": "Bangalore"
+  },
+  {
+    "firstName": "Kavya",
+    "lastName": "Malhotra",
+    "age": 51,
+    "city": "Indore"
+  },
+  {
+    "firstName": "Vikram",
+    "lastName": "Verma",
+    "age": 51,
+    "city": "Indore"
+  },
+  {
+    "firstName": "Kavya",
+    "lastName": "Kumar",
+    "age": 39,
+    "city": "Jaipur"
+  },
+  {
+    "firstName": "Pooja",
+    "lastName": "Gupta",
+    "age": 29,
+    "city": "Jaipur"
+  },
+  {
+    "firstName": "Raj",
+    "lastName": "Kumar",
+    "age": 44,
+    "city": "Kanpur"
+  },
+  {
+    "firstName": "Priya",
+    "lastName": "Sharma",
+    "age": 37,
+    "city": "Kanpur"
+  },
+  {
+    "firstName": "Rohan",
+    "lastName": "Malhotra",
+    "age": 35,
+    "city": "Kanpur"
+  },
+  {
+    "firstName": "Meera",
+    "lastName": "Mehta",
+    "age": 76,
+    "city": "Kolkata"
+  },
+  {
+    "firstName": "Karan",
+    "lastName": "Singh",
+    "age": 62,
+    "city": "Lucknow"
+  },
+  {
+    "firstName": "Amit",
+    "lastName": "Patel",
+    "age": 31,
+    "city": "Mumbai"
+  },
+  {
+    "firstName": "Aditya",
+    "lastName": "Kumar",
+    "age": 25,
+    "city": "Mumbai"
+  },
+  {
+    "firstName": "Rahul",
+    "lastName": "Shah",
+    "age": 61,
+    "city": "Nagpur"
+  },
+  {
+    "firstName": "Divya",
+    "lastName": "Nair",
+    "age": 31,
+    "city": "Pune"
+  },
+  {
+    "firstName": "Priya",
+    "lastName": "Kumar",
+    "age": 41,
+    "city": "Surat"
+  },
+  {
+    "firstName": "Raj",
+    "lastName": "Reddy",
+    "age": 31,
+    "city": "Thane"
+  }
+]
+
+Executing (default): SELECT "id", "firstName", "lastName", "email" FROM "Users" AS "Users" LIMIT 5;
+=== GETTERS/VIRTUALS: Users with fullName virtual field ===
+User: Raj Kumar (raj.kumar@gmail.com)
+User: Karan Singh (karan.singh@gmail.com)
+User: Kavya Kumar (kavya.kumar@example.com)
+User: Rahul Gupta (rahul.gupta@hotmail.com)
+User: Divya Nair (divya.nair@outlook.com)
+
+Executing (default): SELECT "firstName", "lastName", "email" FROM "Users" AS "Users" WHERE "Users"."age" >= 25 LIMIT 5;
+=== GETTERS/VIRTUALS: Single user fullName ===
+Full Name: Raj Kumar
+First Name: Raj
+Last Name: Kumar
+
+Executing (default): SELECT "Users".*, "logs"."id" AS "logs.id", "logs"."loginTime" AS "logs.loginTime", "logs"."logoutTime" AS "logs.logoutTime" FROM (SELECT "Users"."id", "Users"."firstName", "Users"."lastName", "Users"."email" FROM "Users" AS "Users" LIMIT 5) AS "Users" LEFT OUTER JOIN "Logs" AS "logs" ON "Users"."id" = "logs"."userId" AND ("logs"."deletedAt" IS NULL);
+=== ASSOCIATIONS: User with their logs (Users → Logs) ===
+User: Raj Kumar
+Total Logs: 4
+Logs: [
+  {
+    "id": "9cf3d05f-c501-4b1d-b6b8-9ef60937c5ec",
+    "loginTime": "2025-12-07T03:24:04.049Z",
+    "logoutTime": null
+  },
+  {
+    "id": "a48cd786-9f8a-49cd-bd82-7ae0bef2c6b8",
+    "loginTime": "2025-12-25T03:02:59.602Z",
+    "logoutTime": null
+  },
+  {
+    "id": "6f962639-f785-4b45-9cba-ff2ce646c6e3",
+    "loginTime": "2025-12-25T17:53:58.186Z",
+    "logoutTime": "2025-12-25T23:44:04.401Z"
+  },
+  {
+    "id": "bf32cc5b-72f4-41a7-a3ef-8f4fcdfaa66f",
+    "loginTime": "2025-12-28T18:01:03.982Z",
+    "logoutTime": null
+  }
+]
+
+Executing (default): SELECT "Logs"."id", "Logs"."loginTime", "Logs"."logoutTime", "user"."id" AS "user.id", "user"."firstName" AS "user.firstName", "user"."lastName" AS "user.lastName", "user"."email" AS "user.email" FROM "Logs" AS "Logs" LEFT OUTER JOIN "Users" AS "user" ON "Logs"."userId" = "user"."id" WHERE ("Logs"."deletedAt" IS NULL) LIMIT 5;
+=== ASSOCIATIONS: Log with its user (Logs → Users) ===
+Log ID: 9cf3d05f-c501-4b1d-b6b8-9ef60937c5ec
+Login Time: Sun Dec 07 2025 08:54:04 GMT+0530 (India Standard Time)
+Logout Time: Still logged in
+User: Raj Kumar
+
+Executing (default): SELECT "id", "userId", "loginTime", "logoutTime", "updatedAt", "deletedAt" FROM "Logs" AS "Logs" WHERE ("Logs"."deletedAt" IS NULL) ORDER BY "Logs"."loginTime" DESC LIMIT 1;
+=== PARANOID: Before soft delete ===
+Log ID: 789744f2-81b6-4665-ab04-4cb4870567e4
+DeletedAt: null (not deleted)
+
+Executing (default): UPDATE "Logs" SET "deletedAt"=$1 WHERE "deletedAt" IS NULL AND "id" = $2
+=== PARANOID: After soft delete ===
+Executing (default): SELECT "id", "userId", "loginTime", "logoutTime", "updatedAt", "deletedAt" FROM "Logs" AS "Logs" WHERE ("Logs"."deletedAt" IS NULL AND "Logs"."id" = '789744f2-81b6-4665-ab04-4cb4870567e4');
+Found deleted log (default): No
+Executing (default): SELECT "id", "userId", "loginTime", "logoutTime", "updatedAt", "deletedAt" FROM "Logs" AS "Logs" WHERE "Logs"."id" = '789744f2-81b6-4665-ab04-4cb4870567e4';
+Found deleted log (paranoid: false): Yes
+DeletedAt timestamp: Fri Jan 02 2026 12:31:07 GMT+0530 (India Standard Time)
+Full record: {
+  "id": "789744f2-81b6-4665-ab04-4cb4870567e4",
+  "userId": "dd2ec23e-d5bc-42bf-8db2-98f7dd6f5c8a",
+  "loginTime": "2026-01-02T04:33:59.807Z",
+  "logoutTime": "2026-01-02T05:49:00.921Z",
+  "updatedAt": "2026-01-02T06:44:10.791Z",
+  "deletedAt": "2026-01-02T07:01:07.345Z"
+}
+
+Executing (default): SELECT "id", "loginTime", "logoutTime" FROM "Logs" AS "Logs" WHERE ("Logs"."deletedAt" IS NULL) LIMIT 3;
+=== PARANOID: Active (non-deleted) logs ===
+Count: 3
+[
+  {
+    "id": "9cf3d05f-c501-4b1d-b6b8-9ef60937c5ec",
+    "loginTime": "2025-12-07T03:24:04.049Z",
+    "logoutTime": null
+  },
+  {
+    "id": "a48cd786-9f8a-49cd-bd82-7ae0bef2c6b8",
+    "loginTime": "2025-12-25T03:02:59.602Z",
+    "logoutTime": null
+  },
+  {
+    "id": "6f962639-f785-4b45-9cba-ff2ce646c6e3",
+    "loginTime": "2025-12-25T17:53:58.186Z",
+    "logoutTime": "2025-12-25T23:44:04.401Z"
+  }
+]
+
+Executing (default): SELECT "id", "loginTime", "logoutTime", "deletedAt" FROM "Logs" AS "Logs" LIMIT 5;
+=== PARANOID: All logs including deleted ===
+Count: 5
+Log ID: 9cf3d05f-c501-4b1d-b6b8-9ef60937c5ec, DeletedAt: null (active)
+Log ID: a48cd786-9f8a-49cd-bd82-7ae0bef2c6b8, DeletedAt: null (active)
+Log ID: 6f962639-f785-4b45-9cba-ff2ce646c6e3, DeletedAt: null (active)
+Log ID: bf32cc5b-72f4-41a7-a3ef-8f4fcdfaa66f, DeletedAt: null (active)
+Log ID: b7598ef3-7767-40b5-900b-651e1d74d2df, DeletedAt: null (active)
+
+Executing (default): UPDATE "Logs" SET "deletedAt"=$1 WHERE "id" = $2
+=== PARANOID: After restore ===
+Executing (default): SELECT "id", "userId", "loginTime", "logoutTime", "updatedAt", "deletedAt" FROM "Logs" AS "Logs" WHERE ("Logs"."deletedAt" IS NULL AND "Logs"."id" = '789744f2-81b6-4665-ab04-4cb4870567e4');
+Found restored log: Yes
+DeletedAt: null (restored)
+
+Executing (default): DELETE FROM "Logs" WHERE "id" = '789744f2-81b6-4665-ab04-4cb4870567e4'
+=== PARANOID: After hard delete (force: true) ===
+Executing (default): SELECT "id", "userId", "loginTime", "logoutTime", "updatedAt", "deletedAt" FROM "Logs" AS "Logs" WHERE "Logs"."id" = '789744f2-81b6-4665-ab04-4cb4870567e4';
+Found hard-deleted log: No
+(Hard delete permanently removes the record)
+
+Closed successfully!

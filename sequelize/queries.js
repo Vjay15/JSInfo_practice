@@ -81,7 +81,7 @@ console.log('');
 // IN and NOT IN operators
 const users_in = await Users.findAll({
     where: {
-        city: { [Op.in]: ['Delhi', 'Bangalore', 'Kanpur'] }  // city IN ('New York', 'Los Angeles', 'Chicago')
+        city: { [Op.in]: ['Mumbai', 'Delhi', 'Bangalore'] }  // city IN ('Mumbai', 'Delhi', 'Bangalore')
     }
 });
 console.log('Users in specific cities', JSON.stringify(users_in, null, 2));
@@ -106,7 +106,7 @@ console.log('');
 
 const users_startsWith = await Users.findAll({
     where: {
-        firstName: { [Op.startsWith]: 'V' }  // firstName LIKE 'v%'
+        firstName: { [Op.startsWith]: 'V' }  // firstName LIKE 'V%' (e.g., Vikram)
     }
 });
 console.log('Users with firstName starting with "V"', JSON.stringify(users_startsWith, null, 2));
@@ -122,10 +122,10 @@ console.log('');
 
 const users_iLike = await Users.findAll({
     where: {
-        firstName: { [Op.iLike]: '%john%' }  // firstName ILIKE '%john%' (case insensitive)
+        firstName: { [Op.iLike]: '%raj%' }  // firstName ILIKE '%raj%' (case insensitive)
     }
 });
-console.log('Users with firstName containing "john" (case insensitive)', JSON.stringify(users_iLike, null, 2));
+console.log('Users with firstName containing "raj" (case insensitive)', JSON.stringify(users_iLike, null, 2));
 console.log('');
 
 // NULL operators
@@ -167,14 +167,14 @@ const users_complex = await Users.findAll({
             { age: { [Op.between]: [20, 60] } },
             {
                 [Op.or]: [
-                    { city: { [Op.in]: ['New York', 'Los Angeles', 'Chicago'] } },
+                    { city: { [Op.in]: ['Mumbai', 'Delhi', 'Bangalore'] } },
                     { email: { [Op.like]: '%@gmail.com' } }
                 ]
             }
         ]
     }
 });
-console.log('Complex query: age between 20-60 AND (city in major cities OR email is gmail)', JSON.stringify(users_complex, null, 2));
+console.log('Complex query: age between 20-60 AND (city in major Indian cities OR email is gmail)', JSON.stringify(users_complex, null, 2));
 console.log('');
 
 // ========== AGGREGATE FUNCTIONS WITH GROUP BY AND HAVING ==========
